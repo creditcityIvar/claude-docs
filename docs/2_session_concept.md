@@ -1,4 +1,4 @@
-# 클로드 세션
+# 클로드 세션 개념
 
 ## 세션이란?
 
@@ -26,6 +26,8 @@ Claude는 시간이 지나도 사용자의 선호도를 "학습"하거나 지난
 `claude --continue` 또는 `claude --resume`
 
 명령어를 터미널(명령어를 입력하는 검은 화면)에 입력하면 대화를 중단한 지점부터 이어갑니다.
+
+![session-continuity](./images/session-continuity.svg)
 
 ### 세션 분기하기
 
