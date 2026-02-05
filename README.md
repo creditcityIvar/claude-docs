@@ -16,6 +16,7 @@
 3. [클로드 코드 설치 가이드](./docs/3_installation.md)
 4. [클로드 코드 기본 사용법](./docs/4_basic_usage.md)
 5. [CLAUDE.md 파일과 룰 설정](./docs/5_CLAUDE.md_rules.md)
+6. [클로드 Skills](./docs/6_skills.md)
 
 ## 클로드 활용 설계
 
