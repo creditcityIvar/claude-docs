@@ -1,16 +1,36 @@
 # 클로드 코드 설치 가이드
 
-## ✅ 준비물 확인
+## 준비물: 클로드 계정 가입
 
 - [ ] 클로드 계정 (아래 중 하나)
   - Claude Pro, Max, Teams, Enterprise 구독
   - 또는 Claude Console 계정
-
-클로드 계정이 없다면? -> [claude.com](https://claude.com/pricing)에서 가입할 수 있습니다.
+    클로드 계정이 없다면? -> [claude.com](https://claude.com/pricing)에서 가입할 수 있습니다.
 
 ---
 
-## 1단계: 터미널 열기
+## 1단계: Git 설치하기
+
+### Git이란?
+
+코드 변경 이력을 관리하는 도구입니다.
+클로드 코드는 Git을 사용해 파일 변경사항을 추적하고 저장합니다.
+
+### Mac 사용자
+
+1. [git-scm.com/download/mac](https://git-scm.com/download/mac) 방문
+2. 설치 파일 다운로드
+3. 다운로드한 파일 실행하고 안내 따라 설치
+
+### Windows 사용자
+
+1. [git-scm.com/download/win](https://git-scm.com/download/win) 방문
+2. 설치 파일 다운로드 (Click here to download) 버튼 클릭
+3. 다운로드한 파일 실행
+4. 설치 화면에서 모든 기본 설정 그대로 두고 "Next" 클릭
+5. 설치 완료
+
+## 2단계: 터미널 열기
 
 ### 터미널(Terminal)이란?
 
@@ -20,7 +40,6 @@
 ### Mac 사용자
 
 1. **Spotlight 검색 열기**
-
    - 키보드에서 `Command(⌘) + 스페이스바` 누르기
 
 2. **터미널 검색**
@@ -30,16 +49,34 @@
 ### Windows 사용자
 
 1. **시작 메뉴 열기**
-
    - 키보드에서 `Windows 키` 누르기
 
 2. **PowerShell 검색**
    - "PowerShell" 입력
    - **"관리자 권한으로 실행"** 클릭
 
+### Git 설치 확인
+
+터미널/PowerShell에서 아래 명령어 입력:
+
+```bash
+git --version
+```
+
+버전 정보가 표시되면 성공입니다 (예: `git version 2.39.0`)
+
+### Git 초기 설정
+
+Git을 처음 사용한다면 이름과 이메일을 설정해야 합니다:
+
+```bash
+git config --global user.name "홍길동"
+git config --global user.email "your-email@example.com"
+```
+
 ---
 
-## 2단계: 클로드 코드 설치하기
+## 3단계: 클로드 코드 설치하기
 
 ### Mac 사용자
 
@@ -57,7 +94,7 @@ curl -fsSL https://claude.ai/install.sh | bash
 irm https://claude.ai/install.ps1 | iex
 ```
 
-## 3단계: 설치 확인하기
+## 4단계: 설치 확인하기
 
 설치가 제대로 되었는지 확인해봅시다.
 
@@ -76,47 +113,22 @@ irm https://claude.ai/install.ps1 | iex
 
 ---
 
-## 4단계: 클로드 코드 로그인하기
+## 5단계: 클로드 코드 로그인하기
 
 ### 첫 실행
 
 1. **터미널에서 클로드 코드 실행**
 
    ```bash
-   claude
+      claude
    ```
 
-2. **처음 실행하면 로그인 화면이 나타납니다**
+2. **처음 실행하면 모드 선택 화면이 나타납니다**
 
-3. **로그인 명령어 입력**
+3. **원하는 모드를 선택합니다**
 
-   ```bash
-   /login
-   ```
+4. **로그인 옵션 보여줄 겁니다. -> 1번 선택 (그냥 엔터)**
 
-4. **화면의 안내를 따라 진행합니다**
-   - 로그인 방법을 선택하라는 메시지가 나옵니다
-   - 방향키(↑↓)로 선택하고 Enter 키를 누릅니다
-
-**[스크린샷 필요: 로그인 방법 선택 화면]**
-
-### 로그인 방법 선택
-
-**옵션 1: Claude Pro/Max/Teams/Enterprise (권장)**
-
-1. **"Claude Pro/Max/Teams/Enterprise" 선택**
-2. **브라우저가 자동으로 열립니다**
-3. **claude.com에 로그인합니다**
-4. **"Claude Code 연결 허용" 버튼 클릭**
-5. **터미널로 돌아오면 로그인 완료**
-
-**옵션 2: Claude Console**
-
-1. **"Claude Console" 선택**
-2. **API 키를 입력하라는 메시지가 나옵니다**
-3. **Console에서 발급받은 API 키 붙여넣기**
-4. **Enter 키 누르기**
-
-> **API 키가 없다면?** > [console.anthropic.com](https://console.anthropic.com/)에서 발급받을 수 있습니다.
+5. **다시 터미널로 돌아와서 로그인 성공 문구 확인**
 
 ---
