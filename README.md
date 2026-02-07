@@ -18,6 +18,7 @@
 5. [CLAUDE.md 파일과 룰 설정](./docs/5_CLAUDE.md_rules.md)
 6. [클로드 Skills](./docs/6_skills.md)
 7. [클로드 Subagent](./docs/7_subagent.md)
+8. [클로드 Hooks](./docs/8_hooks.md)
 
 ## 클로드 활용 설계
 
