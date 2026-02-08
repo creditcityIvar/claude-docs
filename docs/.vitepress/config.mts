@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: '클로드 문서',
-  description: '클로드 코드 활용법 문서',
+  title: 'Claude Code',
+  description: 'Claude Code 개념과 활용법',
   lang: 'ko-KR',
   base: '/claude-docs/',
 
