@@ -24,7 +24,7 @@
 
 1. [git window](https://git-scm.com/download/win) 방문
 2. 설치 파일 다운로드 (Click here to download) 버튼 클릭
-   ![git window](/docs/images/3_installation/git_window.png)
+   ![git window](./images/3_installation/git_window.png)
 3. 다운로드한 파일 실행
 4. 설치 화면에서 모든 기본 설정 그대로 두고 "Next" 클릭
 5. 설치 완료
@@ -163,7 +163,7 @@ VS Code는 문서를 작성하고 편집하는 프로그램입니다.
 2. 검색창에 prettier 입력
 3. 설치
 
-![prettier](/docs/images/3_installation/prettier.png)
+![prettier](./images/3_installation/prettier.png)
 
 ### 프리티어 설정
 
@@ -173,7 +173,7 @@ VS Code는 문서를 작성하고 편집하는 프로그램입니다.
 4. default formatter를 prettier로 설정
 5. format on paste 체크
 
-![prettier](/docs/images/3_installation/prettier_setting.png)
+![prettier](./images/3_installation/prettier_setting.png)
 
 ## Claude Code 익스텐션 설치
 
@@ -184,15 +184,15 @@ VS Code는 문서를 작성하고 편집하는 프로그램입니다.
 
 ### 설치 방법
 
-![claude code](/docs/images/3_installation/claude.png)
+![claude code](./images/3_installation/claude.png)
 
 ### 사용방법
 
 1. 아무 파일을 열고
 2. 우측 상단에 클로드 아이콘 클릭
 3. 클로드와 대화 시작
-   ![claude_open](/docs/images/3_installation/claude_open.png)
-   ![claude_start](/docs/images/3_installation/claude_start.png)
+   ![claude_open](./images/3_installation/claude_open.png)
+   ![claude_start](./images/3_installation/claude_start.png)
 
 ### Claude Extension 단축키들
 

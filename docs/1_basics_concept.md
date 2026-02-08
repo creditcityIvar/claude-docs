@@ -21,7 +21,7 @@ Anthropic이 개발한 AI 언어 모델입니다. 대화, 코드 작성, 문서 
 
 ### Agentic Loop
 
-![Agentic Loop](images/1_basic_concenpt/agentic-loop.svg)
+![Agentic Loop](./images/1_basic_concenpt/agentic-loop.svg)
 
 클로드에게 작업을 시키면 아래와 같은 단계를 반복합니다.
 
