@@ -19,6 +19,7 @@
 6. [클로드 Skills](./docs/6_skills.md)
 7. [클로드 Subagent](./docs/7_subagent.md)
 8. [클로드 Hooks](./docs/8_hooks.md)
+9. [클로드 MCP](./docs/9_mcp.md)
 
 ## 클로드 활용 설계
 
