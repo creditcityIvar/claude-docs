@@ -1,7 +1,7 @@
 ---
 layout: home
 hero:
-  name: 클로드 코드
+  name: Claude Code
   actions:
     - theme: brand
       text: 시작하기
